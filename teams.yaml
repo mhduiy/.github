@@ -103,6 +103,7 @@ teams:
         - deepin-update-ui
         - deepin-icon-theme
         - deepin-screensaver
+        - deepin-face
   - name: deepin
     members:
       - felixonmars
