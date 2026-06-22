@@ -58,6 +58,13 @@
     ],
     "src": "workflow-templates/cppcheck.yml",
     "dest": "linuxdeepin/treeland-protocols/.github/workflows/cppcheck.yml"
+  },
+  {
+    "branch": [
+      "master"
+    ],
+    "src": "workflow-templates/call-update-changelog.yml",
+    "dest": "linuxdeepin/treeland-protocols/.github/workflows/call-update-changelog.yml"
   }
 ]
 

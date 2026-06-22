@@ -83,5 +83,12 @@
     ],
     "src": "workflow-templates/call-deploy-dev-doc.yml",
     "dest": "linuxdeepin/dde-control-center/.github/workflows/call-deploy-dev-doc.yml"
+  },
+  {
+    "branch": [
+      "master"
+    ],
+    "src": "workflow-templates/call-update-changelog.yml",
+    "dest": "linuxdeepin/dde-control-center/.github/workflows/call-update-changelog.yml"
   }
 ]

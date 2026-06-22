@@ -85,5 +85,12 @@
       ".github/workflows/call-tag-build.yml"
     ],
     "dest": "linuxdeepin/deepin-gtk-theme/.github/workflows/call-tag-build.yml"
+  },
+  {
+    "branch": [
+      "master"
+    ],
+    "src": "workflow-templates/call-update-changelog.yml",
+    "dest": "linuxdeepin/deepin-gtk-theme/.github/workflows/call-update-changelog.yml"
   }
 ]

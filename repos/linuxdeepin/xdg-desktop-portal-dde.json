@@ -57,5 +57,12 @@
       ".github/workflows/call-tag-build.yml"
     ],
     "dest": "linuxdeepin/xdg-desktop-portal-dde/.github/workflows/call-tag-build.yml"
+  },
+  {
+    "branch": [
+      "master"
+    ],
+    "src": "workflow-templates/call-update-changelog.yml",
+    "dest": "linuxdeepin/xdg-desktop-portal-dde/.github/workflows/call-update-changelog.yml"
   }
 ]

@@ -88,5 +88,12 @@
       ".github/workflows/call-tag-build.yml"
     ],
     "dest": "linuxdeepin/dde-network-core/.github/workflows/call-tag-build.yml"
+  },
+  {
+    "branch": [
+      "master"
+    ],
+    "src": "workflow-templates/call-update-changelog.yml",
+    "dest": "linuxdeepin/dde-network-core/.github/workflows/call-update-changelog.yml"
   }
 ]

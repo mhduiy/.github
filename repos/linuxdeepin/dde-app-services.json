@@ -92,5 +92,12 @@
     ],
     "src": "issue-templates/unit-test-report.md",
     "dest": "linuxdeepin/dde-app-services/.github/ISSUE_TEMPLATE/unit-test-report.md"
+  },
+  {
+    "branch": [
+      "master"
+    ],
+    "src": "workflow-templates/call-update-changelog.yml",
+    "dest": "linuxdeepin/dde-app-services/.github/workflows/call-update-changelog.yml"
   }
 ]
