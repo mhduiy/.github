@@ -284,8 +284,13 @@ jobs:
         with:
           token: ${{ steps.app_token.outputs.token }}
           branch: automation/update-changelog/${{ steps.prepare.outputs.safe_version }}
-          title: "chore: update changelog to ${{ steps.prepare.outputs.version }}"
-          commit-message: "chore: update changelog to ${{ steps.prepare.outputs.version }}"
+          title: "chore: bump version to ${{ steps.prepare.outputs.version }}"
+          commit-message: |
+            chore: bump version to ${{ steps.prepare.outputs.version }}
+
+            update changelog to ${{ steps.prepare.outputs.version }}
+
+            Log: update changelog to ${{ steps.prepare.outputs.version }}
           body: |
             Automated changelog update.
 
